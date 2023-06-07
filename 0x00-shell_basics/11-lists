@@ -1,4 +1,5 @@
-#!/bin/bash
-ls_al . ../boot
+ #!/bin/bash
+ ls -la . .. /boot
+
 
 
