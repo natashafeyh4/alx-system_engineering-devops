@@ -1,4 +1,4 @@
 #!/bin/bash
-ln -s /bin/ls __ls__
-_
+ln -s /bin/ls _ls_
+
 
