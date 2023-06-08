@@ -1,4 +1,3 @@
 #!/bin/bash
 chown betty hello
-ls -l hello
 
