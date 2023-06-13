@@ -1,2 +1,17 @@
 #!/bin/bash
-paste -d, -- |cut -d, -f1
+
+# Counter to keep track of line number
+line_number=1
+
+# Read input from standard input
+while IFS= read -r line; do
+  # Check if the line number is odd
+  if ((line_number % 2 != 0)); then
+    # Print the line
+    echo "$line"
+  fi
+
+  # Increment the line number
+  ((line_number++))
+done
+
