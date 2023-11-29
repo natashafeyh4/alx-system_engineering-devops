@@ -1,9 +1,7 @@
 #!/usr/bin/env ruby
 
-def match_school(input)
-    regex = /hbt+n/
+regex = /hbt+n/
+input = ARGV[0]
 
-    match_result = input.match(regex)
-
-    puts match_result ? match_result[0] : ''
+puts input.match(regex) ? input : ""
 end
