@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+0x14. MySQL
+=======
 ```
 ░█████╗░██╗░░██╗░░███╗░░░░██╗██╗░░░
 ██╔══██╗╚██╗██╔╝░████║░░░██╔╝██║░░░
@@ -441,3 +444,4 @@ ubuntu@03-web-01:~$
 * File: `5-mysql_backup`
 
 [-> Abdelemjid Essaid](https://github.com/abdelemjidessaid/alx-system_engineering-devops/tree/main/0x14-mysql)
+>>>>>>> 82b1dbd8a2c62b9d9c1455cb2ff41f60e89dca85
